@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ticket.css">
+    <title>Contact Us!!</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="contact-us.html">Contact Us</a>
+    </div>
+    <header class="heading">
+        <h1>Register to book your tickets</h1>
+        <h3>Payment link will be sent to the mentioned Email-ID.</h3>
+    </header>
+    <div class="container" id="content">
+        <form action="home.html">
+            <div class="row">
+                <div class="col-25">
+                    <label for="uname">User Name: </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="username" placeholder="Your Name..." required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email ID: </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="email-id" placeholder="Your Email-ID..." required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="password">Password: </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="pass-word" placeholder="Your Password..." required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="Price">Select the Price: </label>
+                </div>
+                <div class="col-75">
+                    <select name="cost">
+                        <option value="phase1">Phase 1 (₹899)</option>
+                        <option value="phase2">Phase 2 (₹699)</option>
+                        <option value="phase3" selected>Phase 3 (₹499)</option>
+                        <option value="balcony">Balcony (₹799)</option>
+                        <option value="earlybird">Early Bird (₹399)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Message for the cast: </label>
+                </div>
+                <div class="col-75">
+                    <textarea id="message" name="message" placeholder="Write your message..." style="height: 100px;"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="home.html" class="button">Submit</a>
+            </div><br>
+
+            
+
+        </form>
+<div class="footer">
+    <h2>@ImtiazAli</h2>
+</div>
+    </div>
+</body>
+</html>

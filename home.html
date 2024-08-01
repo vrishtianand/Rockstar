@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-image: url('wallpapers/jj2.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            filter: brightness(0.9);
+        }
+
+        .header{
+            padding: 60px;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 255,0.3);
+        }
+
+        .navbar{
+            display: flex;
+            background-color: rgba(130, 130, 185, 0.4);
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar a{
+            color: black;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #333333b0;
+            color: white;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .sidebar {
+            flex: 30%;
+            background-color: rgba(203, 179, 197, 0.3);
+            padding: 30px;
+            border-right: 1px solid #888787;
+        }
+
+        .main-content {
+            flex: 60%;
+            padding: 30px;
+        }
+
+        .title-img {
+           /* background-color: rgb(175, 9, 133);*/
+            /*width: 100%;*/
+            max-width: 100%;
+            height: auto;
+            padding: 20px;
+            
+        }
+
+        .img2 {
+            width: 100%;
+            max-width: 70%;
+            height: auto;
+            padding: 10px;
+            position: relative;
+
+        }
+
+        .footer {
+            padding: 5px;
+            text-align: center;
+            background-color: rgba(0, 0, 255,0.3);
+        }
+
+        ul {
+            list-style-image: url("wallpapers/g.png");
+        }
+
+        /*@media (max-width: 700px) {
+        .row,.navbar {
+            flex-direction: column;
+                }
+            }*/
+        
+    
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(255, 192, 203,0.7); padding: 2px;">
+        <h4 style="text-align: center;">This is a web page about the best movie ever by Imtiaz Ali.</h4>
+    </div>
+
+    <div class="header">
+        <h1>Welcome to the world of ROCKSTAR!</h1>
+        <p style="font-size: large;">"Did you know... Far from here, out beyond our ideas of right-doing and wrong-doing, there is a field. I’ll meet you there." </p>
+    </div>
+
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="contact-us.html">Tickets</a>
+    </div>
+
+    <div class="row">
+        <div class="sidebar">
+            <h2>ROCKSTAR (2011)</h2>
+            <hr>
+            <h4>Meet Heer and Jordan:</h4>
+            <center><img src="C:\Users\Barkha\Desktop\Project-1\wallpapers\rockstar.webp" class="title-img" style="height: 250px; border-radius: 50%;"></center>
+            <p>"Rockstar" is a Bollywood musical romantic drama film released in 2011, directed by Imtiaz Ali and starring Ranbir Kapoor and Nargis Fakhri in lead roles. Here are some key details about the movie:</p>
+
+            <h3>Plot Summary</h3>
+            <p>The film follows the journey of Janardhan Jakhar (played by Ranbir Kapoor), a young man from Delhi who aspires to become a rockstar. Initially an awkward and unassuming college student, Janardhan transforms into the flamboyant and rebellious Jordan after heartbreak. He falls in love with Heer Kaul (played by Nargis Fakhri), a free-spirited girl who becomes his muse but is already engaged to another man. The story explores Jordan's rise to fame as a rockstar and his tumultuous journey through love, heartbreak, and self-discovery.</p>
+
+            <center><img src="C:\Users\Barkha\Desktop\Project-1\wallpapers\kun faya kun.png" class="img2" style="height: 200px;"></center><br><br>
+
+        </div>
+
+        <div class="main-content">
+            <center><h2>LEGACY:</h2><hr>
+            <h4>Released on 11th November, 2011</h4>
+
+            <img src="C:\Users\Barkha\Desktop\Project-1\wallpapers\jj heer.jpg" class="title-img" style="height: 300px; "></center>
+
+            <p>"Rockstar" is considered a significant film in Ranbir Kapoor's career and is celebrated for its exploration of complex themes through music and romance. It has achieved a cult status among fans of Bollywood cinema and remains popular for its memorable music and poignant storytelling.</p>
+        
+            <p>Overall, "Rockstar" is a compelling tale of love, passion, and the pursuit of artistic fulfillment, anchored by strong performances and a soul-stirring soundtrack, making it a memorable film in Bollywood's contemporary landscape.</p>
+            <br>
+
+            <h2>Themes:</h2><hr>
+            <h5>(Ranbir Kapoor won several awards for his performance as Jordan, including the Filmfare Award for Best Actor. A.R. Rahman won the Filmfare Award for Best Music Director for his work on the film's soundtrack.)</h5>
+
+            <ul>
+                <li><strong>Music and Passion: </strong>The film explores the intense passion for music and the artistic journey of the protagonist.</li>
+                <li><strong>Love and Heartbreak: </strong>It delves into the complexities of romantic relationships, unrequited love, and the emotional turmoil that comes with it.</li>
+                <li><strong>Identity and Transformation: </strong>Janardhan's transformation into Jordan symbolizes the quest for identity and the sacrifices one makes for artistic expression.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>@ImtiazAli</h2>
+    </div>
+
+</body>
+</html>
